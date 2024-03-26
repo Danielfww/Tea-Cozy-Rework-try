@@ -1,0 +1,185 @@
+html,
+body {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  width: 80%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+.header {
+  height: 89px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.img {
+  
+  
+  
+}
+#teacozy {
+height: 50px;
+  padding-top: auto;
+  display:inline-flex;
+  align-self: center;
+  margin-right:0px;
+}
+ul {
+  list-style-type: none;
+}
+.nav {
+  position:static;
+  display:inline-flex;
+  margin-right:-50px;
+  align-self:center;
+ 
+}
+
+.link {
+  display:block;
+  width: 100%;
+  font-size:18px;
+  text-decoration: underline;
+}
+
+#main-img {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*ztb8xk*_ga*MTA3MTExNDcyMC4xNzA5ODQ4NTMy*_ga_3LRZM6TM9L*MTcxMTMyNDQ1OC4yOS4xLjE3MTEzMjQ0ODAuMzguMC4w");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 150%;
+}
+
+h2 {
+  text-decoration:underline;
+  font-size:46px;
+  text-align:center;
+}
+
+h4 {
+  font-style:italic;
+  font-size:18px;
+}
+
+#mission {
+  position: sticky;
+  background: black;
+  text-align:center;
+  width: 80%;
+  justify-content:center;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  
+  
+  
+  }
+}
+.teas {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.tea {
+  height: 200px;
+  width: 100%;
+}
+h2,
+h3,
+h4,
+h5,
+.contact p {
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+
+  
+  
+}
+.location {
+  height:40%;
+  width: 30%;
+  background-color: black;
+  display:block;
+  overflow:visible;
+}
+
+#locations {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*uz5aw7*_ga*MTA3MTExNDcyMC4xNzA5ODQ4NTMy*_ga_3LRZM6TM9L*MTcxMTMyNDQ1OC4yOS4xLjE3MTEzMjQ0ODAuMzguMC4w");
+  
+   height: 800px;
+  width: 130%;
+  display: grid;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.location div {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:210px;
+  font-size:16px;
+  align-items:center;
+  background:black;
+  height:40px;
+  
+ 
+  }
+}
+.footer {
+  padding-left: 20px;
+  text-align:center;
+  align-items:center;
+}
+
+p {
+  text-align:center;
+}
+
+
+@media (max-width: 720px) {
+  h2,
+h3,
+h4,
+h5,
+.contact,
+  .location div,
+  .container,
+  footer,
+  #locations,
+  .location,
+  .downtown,
+  #mission
+  {
+    flex-direction: column;
+  }
+}
+
+.number {
+  text-decoration:none;
+}
+
+ 
+  
+hr {
+  border:lightblue 4px groove;
+  margin:1.5rem 0;
+  width:100%;
+  
+}
